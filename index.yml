@@ -1,0 +1,44 @@
+
+---
+apiVersion: v1
+origin: mark-package-repository
+name: spring-mysql-jpa
+displayName: Spring Data JPA with MySQL
+version: 1.0.0
+packageSourceUrl: github.com/spring-guides/gs-accessing-data-mysql//complete
+language: java
+framework: spring
+services: mysql
+packageEndUserDocumentation: github.com/arch-docs/mysql//readme.md
+packageHomeUrl: https://github.com/spring-guides/gs-accessing-data-mysql
+tags: database, spring, jpa, mysql
+maintainer: https://github.com/dsyer
+description: An applicaiton that connects to a MySQL database. Uses Spring Data JPA to access the database.
+
+---
+apiVersion: v1
+origin: mark-package-repository
+name: spring-rabbitmq
+displayName: Spring and RabbitMQ
+version: 1.0.0
+packageSourceUrl: github.com/spring-guides/gs-messaging-rabbitmq//complete
+language: java
+framework: spring
+services: rabbitmq
+packageHomeUrl: https://github.com/spring-guides/gs-messaging-rabbitmq
+tags: messaging, spring, rabbitmq
+maintainer: https://github.com/dsyer
+description: An application that publishes a message to RabbitMQ and subscribes to the message.
+
+---
+apiVersion: v1
+origin: samples-package-repository
+name: dotnet-hello
+version: 1.0.0
+packageSourceUrl: https://github.com/markpollack/HelloWorldAspNetCore
+language: C#
+framework: dotnet31
+packageHomeUrl: https://github.com/markpollack/HelloWorldAspNetCore
+tags: dotnet, C#,
+maintainer: https://github.com/markpollack
+description: The basic hello world asp.net mvc application
